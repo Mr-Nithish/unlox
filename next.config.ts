@@ -1,9 +1,9 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  output: 'export',
+  // output: 'export',
   skipTrailingSlashRedirect: true,
-  distDir: 'dist',
+  // distDir: 'dist',
   images: {
     unoptimized: true,
     domains: ['d7rrqxjo6rxl7.cloudfront.net'],
