@@ -25,7 +25,7 @@ const content = [
 
 export default function Home() {
   return (
-    <main className='h-full w-full scroll-snap-y overflow-y-scroll scroll-snap-mandatory'>
+    <main className='h-full w-full'>
       <Navbar />
       {content.map((section, index) => (
         <section
@@ -36,7 +36,7 @@ export default function Home() {
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
           }}
-          className='h-screen w-full scroll-snap-start flex justify-center items-center'
+          className='h-screen w-full flex justify-center items-center'
         >
           <div className='flex justify-around gap-40 items-center mp:flex-col mp:items-start mp:pl-6'>
             <div className='flex flex-col gap-4'>
@@ -58,7 +58,7 @@ export default function Home() {
           </div>
         </section>
       ))}
-      <footer className='h-1/2 w-full bg-[#0373FF] flex justify-center scroll-snap-start items-center px-28 ml:px-10 tab:px-12 mp:flex-col mp:gap-12 mp:h-auto mp:px-4 mp:p-6'>
+      <footer className='h-1/2 w-full bg-[#0373FF] flex justify-center items-center px-28 ml:px-10 tab:px-12 mp:flex-col mp:gap-12 mp:h-auto mp:px-4 mp:p-6'>
         <div className='flex flex-col items-start gap-14 w-1/2 mp:w-full mp:gap-8'>
           <Image
             src='https://d7rrqxjo6rxl7.cloudfront.net/footerlogo.png'
