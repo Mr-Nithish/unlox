@@ -12,6 +12,19 @@
   scroll-behavior: smooth;
 }
 
+main {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+
+section {
+  scroll-snap-align: start;
+}
+
+footer {
+  scroll-snap-align: start;
+}
+
 html::-webkit-scrollbar {
   display: none;
 }
