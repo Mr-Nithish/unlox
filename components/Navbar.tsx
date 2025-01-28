@@ -13,7 +13,7 @@ const Navbar = () => {
           />
         </div>
         <div id='twodiv'>
-          <button className='bg-[#0373FF] p-2 text-sm text-[#F7F7F7] rounded-md'>
+          <button className='bg-[#0373FF] p-2 font-med text-sm text-[#F7F7F7] mp:text-[1.125rem] rounded-md'>
             Contact Us
           </button>
         </div>
