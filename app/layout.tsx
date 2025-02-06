@@ -23,7 +23,7 @@ const robotoThink = localFont({
 });
 
 export const metadata: Metadata = {
-  title: 'Education Organization',
+  title: 'Learn From The Best | Unlox',
   description:
     'Join our online courses for career growth, industry-specific training, and technology upskilling programs. Flexible and interactive digital learning for students and professionals.',
   keywords: [
@@ -43,6 +43,7 @@ export const metadata: Metadata = {
     'upskilling programs',
     'blended learning solutions',
     'interactive online courses',
+    'unloxacademy',
   ],
 };
 

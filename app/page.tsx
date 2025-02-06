@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const content = [
   {
@@ -76,7 +77,7 @@ export default function Home() {
         </div>
         <div className='w-1/2 flex flex-col justify-between gap-20 mp:w-full mp:gap-4 mp:justify-start mp:items-start'>
           <div className='flex gap-8 items-center tab:flex-col tab:items-start ml:flex-col ml:items-start mp:flex-col mp:justify-center'>
-            <a
+            <Link
               href='https://www.instagram.com/unloxacademy?igsh=MW5oZDQ0eWg1bXE4&utm_source=qr'
               target='_blank'
               rel='noopener noreferrer'
@@ -92,9 +93,9 @@ export default function Home() {
                   Instagram
                 </h2>
               </div>
-            </a>
-            <a
-              href='https://www.linkedin.com/company/unloxedtech/'
+            </Link>
+            <Link
+              href='https://www.linkedin.com/company/unloxacademy/'
               target='_blank'
               rel='noopener noreferrer'
             >
@@ -109,7 +110,7 @@ export default function Home() {
                   LinkedIn
                 </h2>
               </div>
-            </a>
+            </Link>
           </div>
           <div className='flex flex-col gap-4 mp:gap-2 w-full'>
             <h1 className='text-[1.25rem] font-med text-[#F7F7F7] mp:text-[1.125rem]'>
