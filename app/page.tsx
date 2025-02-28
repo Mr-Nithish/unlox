@@ -2,6 +2,9 @@ import React from 'react';
 import Navbar from '@/components/Navbar';
 import Image from 'next/image';
 import Link from 'next/link';
+import Face from '../app/assets/facebook.png';
+import X from '../app/assets/x.png';
+import YT from '../app/assets/yt.png';
 
 const content = [
   {
@@ -76,7 +79,7 @@ export default function Home() {
           </p>
         </div>
         <div className='w-1/2 flex flex-col justify-between gap-20 mp:w-full mp:gap-4 mp:justify-start mp:items-start'>
-          <div className='flex gap-8 items-center tab:flex-col tab:items-start ml:flex-col ml:items-start mp:flex-col mp:justify-center'>
+          <div className='flex gap-8 items-center tab:flex-col tab:items-start ml:flex-col ml:items-start mp:flex-col-reverse mp:justify-center mp:items-start'>
             <Link
               href='https://www.instagram.com/unloxacademy?igsh=MW5oZDQ0eWg1bXE4&utm_source=qr'
               target='_blank'
@@ -108,6 +111,42 @@ export default function Home() {
                 />
                 <h2 className='text-[1.5rem] font-med text-[#F7F7F7] mp:text-[1.125rem]'>
                   LinkedIn
+                </h2>
+              </div>
+            </Link>
+            <Link
+              href='https://www.facebook.com/share/1K8Mu5TMk8/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <div className='flex justify-center items-center gap-4'>
+                <Image src={Face} alt='Facebook' width={40} height={40} />
+                <h2 className='text-[1.5rem] font-med text-[#F7F7F7] mp:text-[1.125rem]'>
+                  Facebook
+                </h2>
+              </div>
+            </Link>
+            <Link
+              href='https://x.com/UNLOXACADEMY'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <div className='flex justify-center items-center gap-4'>
+                <Image src={X} alt='X' width={40} height={40} />
+                <h2 className='text-[1.5rem] font-med text-[#F7F7F7] mp:text-[1.125rem]'>
+                  Twitter
+                </h2>
+              </div>
+            </Link>
+            <Link
+              href='https://www.youtube.com/@Unloxacademy'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <div className='flex justify-center items-center gap-4'>
+                <Image src={YT} alt='X' width={40} height={40} />
+                <h2 className='text-[1.5rem] font-med text-[#F7F7F7] mp:text-[1.125rem]'>
+                  YT
                 </h2>
               </div>
             </Link>
