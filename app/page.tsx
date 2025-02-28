@@ -62,7 +62,7 @@ export default function Home() {
           </div>
         </section>
       ))}
-      <footer className='h-1/2 w-full bg-[#0373FF] flex justify-center items-center px-28 ml:px-10 tab:px-12 mp:flex-col mp:gap-12 mp:h-auto mp:px-4 mp:p-6'>
+      <footer className='h-auto w-full bg-[#0373FF] flex justify-center ml:h-auto items-center py-8 px-28 ml:px-10 tab:px-12 mp:flex-col mp:gap-12 mp:h-auto mp:px-4 mp:p-6'>
         <div className='flex flex-col items-start gap-14 w-1/2 mp:w-full mp:gap-8'>
           <Image
             src='https://d7rrqxjo6rxl7.cloudfront.net/footerlogo.png'
@@ -78,8 +78,8 @@ export default function Home() {
             <span className='text-[#F7F7F7]'> “Learning Made Easy.”</span>
           </p>
         </div>
-        <div className='w-1/2 flex flex-col justify-between gap-20 mp:w-full mp:gap-4 mp:justify-start mp:items-start'>
-          <div className='flex gap-8 items-center tab:flex-col tab:items-start ml:flex-col ml:items-start mp:flex-col-reverse mp:justify-center mp:items-start'>
+        <div className='w-1/2 flex h-full flex-wrap flex-col justify-between gap-20 mp:w-full mp:gap-4 mp:justify-start mp:items-start'>
+          <div className='flex flex-wrap gap-8 items-center tab:items-start ml:items-start mp:flex-col-reverse mp:justify-center mp:items-start'>
             <Link
               href='https://www.instagram.com/unloxacademy?igsh=MW5oZDQ0eWg1bXE4&utm_source=qr'
               target='_blank'
